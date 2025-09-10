@@ -3,6 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
+//משתמש רגיל בחנות
 public class RegularUser implements User{
 
     private String username;
@@ -17,6 +18,7 @@ public class RegularUser implements User{
         return username;
     }
 
+    //הוספת מוצר מסוג כלשהו
     @Override
     public void addProductToCart(Product product) {
         cart.add(product);

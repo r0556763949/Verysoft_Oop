@@ -1,5 +1,6 @@
 package org.example;
 
+// מחלקה אבסטרקטית המייצגת מוצר כללי בחנות.
 public abstract class Product {
     private String productId;
     private String name;
@@ -23,6 +24,7 @@ public abstract class Product {
         return price;
     }
 
+    // מחלקות יורשות חייבות לממש את המתודה הזו
     public abstract String getDescription();
 
 }

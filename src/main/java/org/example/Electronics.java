@@ -1,7 +1,8 @@
 package org.example;
 
+//מחלקה שמייצגת מוצר אלקטרוני.
 public class Electronics extends Product{
-    private int warrantyPeriod;
+    private int warrantyPeriod;// תקופת האחריות בחודשים
 
     public Electronics(String productId, String name, double price, int warrantyPeriod) {
         super(productId, name, price);

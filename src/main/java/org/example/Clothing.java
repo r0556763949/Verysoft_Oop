@@ -1,7 +1,8 @@
 package org.example;
 
+//מחלקה שמייצגת בגדים
 public class Clothing extends Product{
-    private String size;
+    private String size;// מידת הבגד
     public Clothing(String productId, String name, double price, String size) {
         super(productId, name, price);
         this.size = size;
